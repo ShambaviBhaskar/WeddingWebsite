@@ -1,0 +1,97 @@
+<html>
+<header>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+    </script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    </script>
+    <script src="https://www.gstatic.com/firebasejs/9.17.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.17.2/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.17.2/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.17.2/firebase-database-compat.js"></script>
+</header>
+
+<body>
+    <div class="container">
+        <nav>
+            <h1 class="Title"> Wedding Whisperers</h1>
+            <!-- <img src='./images/banner.jpg' alt=“descriptive text”  -->
+            <!-- width="1272" 
+                height="200"> -->
+            <h2 class="Subtitle">Where Dreams Meet Details for Your Perfect Day</h2>
+            <div class="row">
+
+
+                <div class="test"
+                    style="background-image: url('Images/Banner.jpg');width:100%;height: 15%;background-size: cover; opacity: 0.80 ; ">
+                    <div class="image-containerlogo">
+                        <img src="Images/finallogo.png" alt="image">
+                    </div>
+                    <!-- <div class="overlay-text">Your text here</div> -->
+                    <div class="wrapperdiv">
+                        <u1 class="u1class" id="bannerU1" style="padding-left: 50%;">
+                            <li class="liclass"><a href="Homepage.html">HOME</a></li>
+                            <li class="liclass"><a href="Packages.html">PACKAGES</a></li>
+                            <li class="liclass"><a href="BookNow.html">BOOK-NOW</a></li>
+                            <li class="liclass"><a href="Login.html">LOGIN</a></li>
+                        </u1>
+                    </div>
+                </div>
+            </div>
+            <div class="bodycontent"
+                style="background-image: url('Images/overallbg.jpg');width:100%;height:100%;background-size: cover;">
+                <div style="display: block;">
+                    <div><label> First Name </label> <input type="text" id="firstname" required size="30"
+                            maxlength="30"></div>
+                    <div><label> Last Name </label> <input type="text" id="lastname" required size="20" maxlength="20">
+                    </div>
+                    <div><label> Email </label> <input type="email" id="email" required size="30" maxlength="30">
+                    </div>
+
+                    <div><label> Phone </label> <input type="text" id="phone" required size="20" maxlength="20"></div>
+                    <p>Please select your event venue:</p>
+                    
+                          <input type="radio" id="ruby" name="venue" value="RubyHills">
+                          <label for="ruby">Basic</label><br>
+                          <input type="radio" id="mariott" name="venue" value="SaratogaCountryClub">
+                          <label for="mariott">Standard</label><br>
+                          <input type="radio" id="condoclub" name="venue" value="Mariott Hotel">
+                          <label for="condoclub">Premium</label>
+                        <br>
+                    
+                    <label> Budget Estimate </label> <input type="number" id="budget" required size="20" maxlength="20">
+                    <label> Event Date </label> <input type="date" id="eventdate" required size="20" maxlength="20">
+                    <label> Comments</label> <textarea></textarea>
+                </div>
+                <div>
+                    <h2> Enter Billing Details</h2>
+                    <Div style="display: block;">
+                        <div><label> Credit Card Number </label> <input type="number" id="ccn" required size="30"
+                                maxlength="30"></div>
+                        <div><label> CVV</label> <input type="number" id="cvv" required size="30" maxlength="30"></div>
+                        <div><label> Zip Code</label> <input type="number" id="zip" required size="30" maxlength="30">                            
+                        </div>
+                        <div><label> Card Expiration Date</label> <input type="date" id="cardexpdt" required size="30" maxlength="30"></div>
+
+                    </Div>
+                    <button id="booknow">Book Now</button>
+                </div>
+            </div>
+
+        </nav>
+    </div>
+
+    <!-- <div>
+        </br>
+            <p>
+                Hello there is where the information about the website will go the About us and everything
+            </p>
+        </div> -->
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+=
+<html>
+    <header>
+        <nav>
+            <h1 class = "Title"> Wedding Whisperers</h1>
+            <p>Where Dreams Meet Details for Your Perfect Day</p>
+            <u1>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#packages">Packages</a></li>
+            </u1>
+        </nav>
+    </header>
+    <body>
+
+    </body>
+       
+</html>

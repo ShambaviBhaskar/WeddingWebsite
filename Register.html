@@ -1,0 +1,62 @@
+<html>
+<header>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+    </script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+    
+</header>
+
+<body>
+    <div class="container">
+        <nav>
+            <h1 class="Title"> Wedding Whisperers</h1>
+            <!-- <img src='./images/banner.jpg' alt=“descriptive text”  -->
+            <!-- width="1272" 
+                height="200"> -->
+            <h2 class="Subtitle">Where Dreams Meet Details for Your Perfect Day</h2>
+            <div class="row">
+                <div class="test"
+                    style="background-image: url('Images/Banner.jpg');width:100%;height: 15%;background-size: cover; opacity: 0.80 ; ">
+                    <div class="wrapperdiv">
+                        <u1 class="u1class" id="bannerU1" style="padding-left: 50%;">
+                            <li class="liclass"><a href="Homepage.html">HOME</a></li>
+                            <li class="liclass"><a href="Packages.html">PACKAGES</a></li>
+                            <li class="liclass"><a href="BookNow.html">BOOK-NOW</a></li>
+                            <li class="liclass"><a href="Login.html">LOGIN/REGISTER</a></li>
+                        </u1>
+                    </div>
+                </div>
+            </div>
+            <div class="bodycontent"
+                style="background-image: url('Images/overallbg.jpg');width:100%;height:100%;background-size: cover;">
+                <div class="login-page">
+                    <label> First Name </label> <input type="text" id="firstname" required size="30" maxlength="30">
+                    <label> Last Name </label> <input type="text" id="lastname" required size="20" maxlength="20">
+                    <label> Email </label> <input type="email" id="email" required size="30" maxlength="30">
+                    <label> Username </label> <input type="text" id="username" required size="20" maxlength="20">
+                    <label> Password </label> <input type="password" id="password" required size="20" maxlength="20">
+                    <label> Phone </label> <input type="text" id="phone" required size="20" maxlength="20">
+                    <button id="signUpBtn">Sign Up</button>
+                </div>
+            </div>
+
+    </div>
+    </nav>
+    <div>
+        </br>
+        <p>
+            Hello there is where the information about the website will go the About us and everything
+        </p>
+    </div>
+    </div>
+</body>
+<script src="register.js"></script>
+</html>

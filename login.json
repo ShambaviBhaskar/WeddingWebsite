@@ -1,0 +1,18 @@
+{
+    "userdetails": [{
+        "firstname":"joe",
+        "lastname":"dick",
+    "email": "jondoe@gmail.com",
+    "username": "Jondoe",
+    "password": "1234",
+    "phone":"1212"
+    }, {
+        "firstname":"jane",
+        "lastname":"doe",
+    "email": "liz@gmail.com",
+    "username": "Liz",
+    "password": "abcd",
+    "phone":"1212"
+    }]
+}
+    

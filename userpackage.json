@@ -1,0 +1,59 @@
+{
+    "userpackages": [
+        {
+            "firstname":"joe",
+            "lastname":"dick",
+            "userid": "asfasfasf",
+            "email":"test@gmail.com",
+            "packagename": "premium",
+            "dateofevent": "2023-11-01",
+            "costofevent": 45000.00,           
+            "comments":"fdssd",
+            "creditcard":{
+                "firstname":"joe",
+                "lastname":"dick",
+                "creditcardnumber":4325526262626,
+                "cvv":"013",
+                "expirydate":"2023-11-01",
+                "zipcode":94582
+            }
+        },
+        {
+            "firstname":"joe",
+            "lastname":"dick",
+            "userid": "sfds",
+            "email":"test@gmail.com",
+            "phonenumber":4132452562,
+            "packagename": "premium",
+            "dateofevent": "2023-12-01",
+            "costofevent": 55000.00,           
+            "comments":"fsafsf",
+            "creditcard":{
+                "firstname":"joe",
+                "lastname":"dick",
+                "creditcardnumber":4325526262626,
+                "cvv":"013",
+                "expirydate":"2023-11-01",
+                "zipcode":94582
+            }
+        }
+    ]
+    ,
+    "userdetails": [{
+        "userid":"test",
+        "firstname":"joe",
+        "lastname":"dick",
+    "email": "jondoe@gmail.com",
+    "username": "Jondoe",
+    "password": "1234",
+    "phone":"1212"
+    }, {
+        "userid":"test1",
+        "firstname":"jane",
+        "lastname":"doe",
+    "email": "liz@gmail.com",
+    "username": "Liz",
+    "password": "abcd",
+    "phone":"1212"
+    }]
+}

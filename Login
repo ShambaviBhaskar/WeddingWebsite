@@ -1,0 +1,24 @@
+<html>
+    <header>
+        <link rel="stylesheet" href="home.css">
+        <nav>
+            <h1 class = "Title"> Wedding Whisperers</h1>
+            <p>Where Dreams Meet Details for Your Perfect Day</p>
+            <u1>
+                <li><a href="Homepage.html">Home</a></li>
+                <li><a href="Packages.html">Packages</a></li>
+                <li><a href="MyEvents.html">Packages</a></li>
+                <li><a href="Login.html">Packages</a></li>
+            </u1>
+        </nav>
+    </header>
+    <body>
+        <div>
+        </br>
+            <p>
+                Hello there is where the information about the website will go the About us and everything
+            </p>
+        </div>
+    </body>
+       
+</html>
