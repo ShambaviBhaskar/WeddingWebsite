@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+.navbar-nav{
+    padding-left: calc(100% - 70%);
+}
+.nav>li{
+    display: inline-block;
+}
+.jumbotron{
+    padding: 0;
+    background-color: antiquewhite;
+    border-radius: 0!important;
+    margin: 0;
+}
+.jumbotron h1{
+    font-family: 'copperplate gothic light', copperplate gothic light;
+    font-size: 42px;
+    margin: 0;
+}
+.navbar{
+    background: url('Images/Banner.jpg') no-repeat top center;
+    background-size: cover;
+    opacity: 0.8;
+    margin: 0;
+}
+.navbar-default .navbar-nav>li>a{
+    font-family: 'Monaco', monospace;
+    color: #000;
+    font-weight: 600;
+    font-size: 17px;
+}
+.form{ 
+    padding-top:4%;
+    width:450px;
+    margin: 0 auto;
+}
+.form-group{
+    width: 100%;
+    margin-bottom: 12px;
+}
+.form-group label{
+    width: 100%;
+    color: #000;
+    text-align: left;
+}
+.section{
+    background: url('Images/overallbg.jpg') no-repeat;
+    background-size: cover;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.bg-image img{
+    width: auto;
+    height: 150px;
+    position: absolute;
+    top: -55px; 
+    left: 0; 
+}
+.deflt-btn{
+    text-align: center;
+}
+.deflt-btn button{
+    padding: 4px 16px;
+}
+
+.Subtitle{
+    color: #000;
+    padding: 10px 0;
+    font-family: 'Papyrus', Fantasy;
+    text-align-last: center;
+    font-size: 16px;
+    margin: 0;
+}
+.card{
+    display: inline-grid;
+    padding-right: 2%;
+    margin: 6% 0;
+    text-align: center;
+}
+.card:last-child{
+    padding-right: 0;
+}
+.pd-lft{
+    padding-left: 16px;
+}
+.card h4{
+    font-family: 'Papyrus', Papyrus;
+    font-weight: 700;
+    font-size: 25px;
+    color: #000;
+}
+.circle-card{
+    width: 350px;
+    height: 350px;
+    background: #e5dfd1;
+    border-radius: 50%;
+    text-align: center;
+    padding: 20px;
+}
+
+.circle-card p{
+    font-family: 'Bahnschrift Light', Bahnschrift Light;
+    line-height: 2;
+    font-size: 15px;
+    color: #000;
+}
+
+.home-sections{
+    display: flex;
+    padding: 4% 0;
+}
+.about-us h4{
+    font-family: 'Garamond', Garamond;
+    font-weight: 200;
+    font-size: 30px;
+}
+.info{
+    background-color: #d4e6cf;
+    padding: 10px;
+}
+.info h5{
+    font-size: 23px;
+    font-family: 'Century Gothic', Century Gothic;
+    line-height: 2;
+}
+.info p{
+    font-family: 'Century Gothic', Century Gothic;
+    font-weight: 200;
+    line-height: 2;
+    font-size: 15px;
+}
+.left-bg,.right-bg{
+    padding-top: 6%;
+}
+.left-bg img, .right-bg img{
+    width: 400px;
+    height: auto;
+}
+.card-section{
+    display: flex;
+    align-items: center;
+    background: url("Images/beigebackground.png") no-repeat
+}
+.card-package{
+    text-align: center;
+   
+   
+
+}
+.card-package h4{
+    font-family: 'Garamond', Garamond;
+    font-weight: 200;
+    font-size: 30px;
+}
+.card-package h5{
+    font-family: 'Courier', Courier;
+    font-weight: 200;
+    font-size: 22px;
+}
+
+.card-package p{
+    font-family: 'Century Gothic', Century Gothic;
+    font-weight: 525;
+    line-height: 2;
+    font-size: 15px;
+    width: 87%;
+    margin: 0 auto;
+}
+.decrptn-link{
+    font-family: 'Century Gothic', Centry Gothic;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000;
+}
+.decrptn-link a{
+    color: #000;
+}
+
+.collection{
+    text-align: center;
+    padding: 0 16px;
+}
+
+.gallery,
+.main-collection{
+    display: flex;
+}
+.collection h4{
+    font-family: 'Century Gothic', Century Gothic;
+    font-weight: 200;
+    font-size: 22px;
+}
+
+.collection h6{
+    font-family: 'Century Gothic', Centry Gothic;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
+.collection h6 a{
+    font-family: 'Century Gothic', Centry Gothic;
+    color: #000;
+}
+.price-details{
+    border: 1px solid;
+    width: 29%;
+    padding: 0 16px;
+}
+.price-details h2{
+    font-family: 'Courier', Courier;
+    font-weight: 200;
+    font-size: 28px;
+    text-align: center;
+}
+.price-details p{
+    font-family: 'Century Gothic', Century Gothic;
+    font-weight: 200;
+    line-height: 2;
+    font-size: 15px;
+}
+
+@media (min-width: 300px) and (max-width: 1260px) { 
+    .gallery,
+    .card-section,
+    .home-sections{
+        display: block;
+        text-align: center;
+    }
+    .price-details{
+        width: 100%;
+    }
+    .bg-card img{
+        width: 350px;
+        height: 350px;
+    }
+    .collection img{
+        width: 140px;
+        height: 140px;
+        padding-bottom: 10px;
+        }
+        .price-details p{
+            text-align: left;
+        }
+}
+
+@media (min-width: 300px) and (max-width: 768px) { 
+    .section{
+        text-align: center;
+    }
+    .form{
+        width: 300px!important;
+    }
+    .pd-lft{
+        padding-left: 0;
+    }
+    .navbar-nav{
+        padding-left: 0;
+    }
+    .bg-image img{
+        top: -26px;
+        left: -31px;
+        height: 66px;
+    }
+}

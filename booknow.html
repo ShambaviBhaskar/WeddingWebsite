@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header>
+    <meta charset="UTF-8">
+    <title>Wedding Booking</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="web-login.css">
+      
+    </header>
+    <body >
+        
+        <div class = "container">
+            <div class="jumbotron">
+                <h1 class="text-center m-0">Wedding Whisperers</h1>
+            </div>    
+            <h2 class="Subtitle">Where Dreams Meet Details for Your Perfect Day</h2>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <ul class="nav navbar-nav navbar-left">
+                         <li><a href="homepage.html">HOME</a></li>
+                        <li><a href="packages.html">PACKAGES</a></li>
+                        <li><a href="booknow.html">BOOK-NOW</a></li>
+                        <li><a href="login.html">LOGIN</a></li>
+                    </ul>
+                </div>
+            </nav> 
+            <section class="section">
+                <div class="bg-image">
+                    <img src="Images/finallogo.png" alt="image">
+                </div>
+                <div class="form">
+                    <div class="form-group">
+                      <label for="fname">First Name</label>
+                        <input type="text" id="firstname" placeholder="" style="width: 100%;">
+                    </div>
+                    <div class="form-group">
+                        <label for="lname">Last Name</label>
+                          <input type="text" id="lastname" placeholder="" style="width: 100%;">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                          <input type="email" id="email" placeholder="" style="width: 100%;">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telephone</label>
+                          <input type="tel" id="phone" placeholder="" style="width: 100%;">
+                    </div>
+                    <div class="form-group">
+                        <label>Please select your package:</label>
+                            <div class="checkbox">
+                                <label for="ruby"><input type="radio"  id="ruby" name="package" value="RubyHills"> Basic</label>
+                                <label for="mariott"><input type="radio"  id="mariott" name="package" value="SaratogaCountryClub"> Standard</label>
+                                <label for="condoclub"><input type="radio" id="condoclub" name="package" value="Mariott Hotel"> Premium</label>
+                              </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="budget">Budget Estimate</label>
+                          <input type="number" id="budget" placeholder="" style="width: 100%;">
+                    </div>
+                    <div class="form-group">
+                        <label for="eventdate">Event Date</label>
+                          <input type="date" id="eventdate" placeholder="" style="width: 100%;">
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Comments</label>
+                            <textarea rows="3" id="comments" style="width: 100%;"></textarea>
+                    </div>
+                    <h4>Enter Billing Details</h4>
+                    <div class="form-group">
+                        <label for="cardnumber">Credit Card Number</label>
+                          <input type="number" id="cardnumber" placeholder="" style="width: 100%;">
+                    </div>
+                    <div class="form-group">
+                        <label for="cvv">CVV</label>
+                          <input type="number" id="cvv" placeholder="" style="width: 100%;">
+                    </div>
+                    <div class="form-group">
+                        <label for="zipcode">Zip Code</label>
+                          <input type="number" id="zipcode" placeholder="" style="width: 100%;">
+                    </div>
+                    <div class="form-group">
+                        <label for="expirydate">Card Expiration Date</label>
+                          <input type="number" id="expirydate" placeholder="" style="width: 100%;">
+                    </div>
+                    <div class="deflt-btn">
+                        <button onclick="send()"type="button">Book now</button>
+                    </div>
+                  </form>
+                  
+            </section>                       
+        </div>
+          <!-- jQuery library -->
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+        </script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+   <!--      <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script> -->
+        <script src="https://www.gstatic.com/firebasejs/9.17.2/firebase-app-compat.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/9.17.2/firebase-firestore-compat.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/9.17.2/firebase-auth-compat.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/9.17.2/firebase-database-compat.js"></script> 
+    </body>  
+    <script src="./booknow.js"></script>       
+</html>

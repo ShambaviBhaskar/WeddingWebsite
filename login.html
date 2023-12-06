@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header>
+    <meta charset="UTF-8">
+    <title>Login</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet"
+         href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+         <link rel="stylesheet" href="web-login.css">
+       
+    </header>
+    <body >
+        
+        <div class = "container">
+            <div class="jumbotron">
+                <h1 class="text-center m-0">Wedding Whisperers</h1>
+            </div>    
+            <h2 class="Subtitle">Where Dreams Meet Details for Your Perfect Day</h2>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li><a href="homepage.html">HOME</a></li>
+                        <li><a href="packages.html">PACKAGES</a></li>
+                        <li><a href="booknow.html">BOOK-NOW</a></li>
+                        <li><a href="login.html">LOGIN/REGISTER</a></li>
+                    </ul>
+                </div>
+            </nav> 
+            <section>
+                <div class="form">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" placeholder="" style="width: 100%;">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="" style="width: 100%;">
+                    </div>                   
+                   <div class="deflt-btn">
+                    <button id="signInBtn" type="submit">Login</button> 
+                    <a href="register.html">REGISTER</a>
+                   </div>                 
+                </div>
+            </section>                       
+        </div>         
+          <!-- jQuery library -->
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+        </script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">        
+
+        </script>
+   <!--      <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script> -->
+        <script src="https://www.gstatic.com/firebasejs/9.17.2/firebase-app-compat.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/9.17.2/firebase-firestore-compat.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/9.17.2/firebase-auth-compat.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/9.17.2/firebase-database-compat.js"></script>
+             
+    </body>
+    <script src="./login.js"></script>  
+</html>
+
